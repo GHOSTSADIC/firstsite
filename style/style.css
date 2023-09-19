@@ -500,3 +500,17 @@ a{
     margin: 25px;
     font-size: 20px;
 }
+/*#card-service{
+    margin: 25px;
+    padding: 30px;
+    width:  50%;
+    height: 15rem;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: space-evenly;
+}
+.card-shop{
+    display: flex;
+    margin-top: 35%;
+}
+
