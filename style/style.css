@@ -18,6 +18,7 @@ header{
 header .cart-plus{
     position: relative;
     z-index: 1;
+    
 }
 /*.search{
     display: flex;
@@ -34,13 +35,17 @@ header .cart-plus{
 }*/
 /*navbar*/
 .navbar{
+    height: 8px;
     position: absolute;
+    position: fixed;
     padding: 30px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
+    background-color: white;
+    
 }
 .navbar a{
     color: black;
@@ -48,11 +53,10 @@ header .cart-plus{
 .navbar a:hover{
     height: 0;
     bottom: 0;
-    background-color:orangered;
-    color: white;
+    color: rgb(100, 100, 241);
     z-index: 0;
     border-radius: 8px;
-    transition: all .5s ease 0s;
+    transition: all .1s;
 }
 .navbar .logo{
     font-size: 20px;
@@ -491,4 +495,8 @@ a{
     transition: all .5s ease 0s;
     color: white;
 }
-
+#parag{
+    padding: 20px;
+    margin: 25px;
+    font-size: 20px;
+}
