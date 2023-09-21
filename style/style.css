@@ -20,20 +20,7 @@ header .cart-plus{
     z-index: 1;
     
 }
-/*.search{
-    display: flex;
-    align-items: center;
-}
-.search input{
-    height: 25px;
-    border-radius: 30px;
-    text-align: center;
-}
-.search i{
-    position: absolute;
-    margin-left: 144px;
-}*/
-/*navbar*/
+
 .navbar{
     height: 8px;
     position: absolute;
@@ -458,7 +445,7 @@ a{
     justify-content: center;
     text-align: center;
     background-color: #002C4D;
-    border-radius: 8px;
+    border-radius:0 50px;
     width: 40%;
     height: 15%;
     justify-content: center;
@@ -500,17 +487,51 @@ a{
     margin: 25px;
     font-size: 20px;
 }
-/*#card-service{
-    margin: 25px;
-    padding: 30px;
-    width:  50%;
-    height: 15rem;
-    border-radius: 15px;
+.shopping{
     background-color: white;
-    justify-content: space-evenly;
+    border-radius: 0 50px;
+    padding: 25px;
+    margin: 35px;
+    width:  80%;
+    margin-left: 8.7rem;
 }
-.card-shop{
+.straiker1,
+.straiker2,
+.straiker3
+{
     display: flex;
-    margin-top: 35%;
 }
 
+.shopping-cards1,
+.shopping-cards2,
+.shopping-cards3 
+{
+    width: 15%;
+    display: block;
+}
+
+.god1,
+.god2,
+.god3{
+    margin-top: 5%;    
+}
+.daishi1,
+.daishi2,
+.daishi3 {
+    margin-top: 8%;
+}
+.two1,
+.two2,
+.two3{
+    margin-top:5%;
+}
+.total-shop{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    background-color: #002C4D;
+    padding:2%;
+   border-radius: 8px;
+}
