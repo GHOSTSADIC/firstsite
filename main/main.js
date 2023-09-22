@@ -1,5 +1,8 @@
-let openShoppping = document.querySelector(".cart-plus")
-let closeShopping = document.querySelector(".cart-plus")
-let plusCardShopping = document.querySelector(".circle-plus")
-let addToCard = document.querySelector(".ponclick")
+// cart
+let cartIcon = document.querySelector('#cart-icon')
+let cart = document.querySelector('.cartt')
+let closeCart = document.querySelector('#close-cart')
 
+cartIcon.onclick = () => {
+    cart.classList.add('active')
+}

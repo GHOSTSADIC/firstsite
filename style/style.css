@@ -365,6 +365,8 @@ a{
     height: 300px;
     width: 200px;
 }
+
+
 .tech1,.tech2,
 .tech3,.tech4{
     align-items: center;
@@ -396,8 +398,101 @@ a{
     margin-left: 180px;
     padding-bottom: 20px;
     color: #D94F4F;
+    cursor: pointer;
 }
-
+/* cart */
+.cartt{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+    transition: 0.3s;
+}
+#cart-icon{
+    cursor: pointer;
+}
+.cart.active{
+    right: 0;
+}
+.cart-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.cart-img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+}
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.detail-box{
+    display: grid;
+    row-gap: 0.5rem;
+}
+.cart-product-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.cart-price{
+    font-weight: 500;
+}
+.cart-quantity{
+    border: 1px solid var(--text-color);
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.cart-remove{
+    font-size: 24px;
+    cursor: pointer;
+}
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid;
+}
+.total-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.total-price{
+    margin-left: 0.5rem;
+}
+.bnt-buy{
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background-color: #002C4D;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+#close-cart{
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.bnt-buy:hover{
+    background-color: black;
+    color: white;
+}
 .product-detail{
     display: flex;
     padding: 40px;
@@ -520,10 +615,14 @@ a{
 .daishi3 {
     margin-top: 8%;
 }
+.total-shop{
+    color: white;
+}
 .two1,
 .two2,
 .two3{
     margin-top:5%;
+    display: grid;
 }
 .total-shop{
     display: flex;
